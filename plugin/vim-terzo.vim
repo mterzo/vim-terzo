@@ -7,6 +7,7 @@ filetype plugin on
 
 set pastetoggle=<F2>
 
+map <F2> :Gblame<CR>
 map <F4> :TlistToggle<CR>
 map <F8> :!git ctags <CR>
 map <F5> /\s\+$<CR>
