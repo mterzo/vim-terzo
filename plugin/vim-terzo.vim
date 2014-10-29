@@ -11,3 +11,4 @@ map <F4> :TlistToggle<CR>
 map <F8> :!git ctags <CR>
 map <F5> /\s\+$<CR>
 
+:colo codeschool
