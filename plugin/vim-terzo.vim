@@ -5,6 +5,9 @@ au FileType make setl noexpandtab
 set background=light
 filetype plugin on
 
+"remove trailing white space when saving
+autocmd FileType c,cpp,java,php,python autocmd BufWritePre <buffer> ":%s/\s\+$//e
+
 set pastetoggle=<F2>
 
 map <F2> :Gblame<CR>
