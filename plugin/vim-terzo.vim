@@ -15,4 +15,11 @@ map <F4> :TlistToggle<CR>
 map <F8> :!git ctags <CR>
 map <F5> /\s\+$<CR>
 
+autocmd Filetype gitcommit setlocal spell textwidth=72
+
 :colo flattr
+autocmd WinEnter,FileType gitcommit colorscheme desert256
+
+set nobackup
+set nowritebackup
+set noswapfile
